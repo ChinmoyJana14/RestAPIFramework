@@ -1,0 +1,200 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "abc",
+    "phone_number": "123443444",
+    "address": "12 ABC Street",
+    "website": "abc.com",
+    "language": "English",
+    "location": {
+        "lat": 1223.233,
+        "lng": -1211.32432
+    },
+    "types": [
+        "shop",
+        "wine_shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Wed, 21 Jun 2023 09:51:18 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "f0adc713ffbb7ca0d091976d5c3d9790",
+    "scope": "APP",
+    "reference": "a8da6d2f83e3ac6075c442020f178da1a8da6d2f83e3ac6075c442020f178da1",
+    "id": "a8da6d2f83e3ac6075c442020f178da1"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=f0adc713ffbb7ca0d091976d5c3d9790
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=f0adc713ffbb7ca0d091976d5c3d9790
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 21 Jun 2023 09:51:19 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 210
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "1223.233",
+        "longitude": "-1211.32432"
+    },
+    "accuracy": "50",
+    "name": "abc",
+    "phone_number": "123443444",
+    "address": "12 ABC Street",
+    "types": "shop,wine_shop",
+    "website": "abc.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Xyz",
+    "phone_number": "123443444",
+    "address": "234 xyz St",
+    "website": "abc.com",
+    "language": "Dutch",
+    "location": {
+        "lat": 1223.233,
+        "lng": -1211.32432
+    },
+    "types": [
+        "shop",
+        "wine_shop"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Wed, 21 Jun 2023 09:51:19 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "b1bf957a2a869354e2ebae59f9470451",
+    "scope": "APP",
+    "reference": "f54fbfe95d41d642d64029e5799e5e21f54fbfe95d41d642d64029e5799e5e21",
+    "id": "f54fbfe95d41d642d64029e5799e5e21"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=b1bf957a2a869354e2ebae59f9470451
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=b1bf957a2a869354e2ebae59f9470451
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 21 Jun 2023 09:51:20 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 205
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "1223.233",
+        "longitude": "-1211.32432"
+    },
+    "accuracy": "50",
+    "name": "Xyz",
+    "phone_number": "123443444",
+    "address": "234 xyz St",
+    "types": "shop,wine_shop",
+    "website": "abc.com",
+    "language": "Dutch"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "b1bf957a2a869354e2ebae59f9470451"
+}
+HTTP/1.1 200 OK
+Date: Wed, 21 Jun 2023 09:51:20 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
